@@ -115,10 +115,10 @@ Person.prototype.toString = function(){
   /* 
     TASK 4
     In your own words explain the four principles for the "this" keyword below:
-    1. 
-    2. 
-    3. 
-    4. 
+    1. Window/Global Object Binding - this will be referring to the window/console object.
+    2. Implicit Binding - whenever you use dot notation before a function "this" refers to the object, for example: myObj.thisIsMyFunction() - this would be refering to myObj
+    3. New Binding - Whenever you use a constructor function "this" refers to the specific instance of the object you're creating and returning with the constructor function.
+    4. Explicit Binding - Whenever you use .call or .apply, this gets explicitly defined
   */
   
   
